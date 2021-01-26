@@ -16,8 +16,14 @@ settings:
 
 monitors:
   - id: www-turazlab-com
-    name: my blog
+    name: turazlab.com
     description: 'Just another blog updated once a year'
     url: 'https://www.turazlab.com/'
+    method: GET
+    expectStatus: 200
+  - id: www-turaz-net
+    name: turaz.net
+    description: 'Placeholder of my first website'
+    url: 'https://www.turaz.net/'
     method: GET
     expectStatus: 200
